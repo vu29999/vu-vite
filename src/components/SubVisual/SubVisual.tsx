@@ -50,7 +50,7 @@ const SubVisual: React.FC<SubVisualProps> = ({ menuData }) => {
         <div className="sub-visual-wrap">
             <div className="sub-visual-box">
                 <div className="sub-visual-cont">
-                    <h2>{menu1?.title || "서브 비주얼"}</h2>
+                    <h2>{menu1?.title || "Title"}</h2>
                 </div>
             </div>
         </div>

@@ -50,7 +50,7 @@ const QuickLink: React.FC = () => {
     return (
         <div className="quick-box" ref={quickBoxRef}>
             <p>QUICK LINK</p>
-            {dataQuick.map((item: QuickItem, index: number) => {
+            {dataQuick.map((item: QuickItem) => {
                 const isExternal = item.link.startsWith('http');
 
                 const linkContent = (
